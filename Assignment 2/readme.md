@@ -1,19 +1,32 @@
-Programming Fundamentals - Assignment 1
-This repository contains the C++ source code solutions for Assignment 1 of the Programming Fundamentals course.
-Author Details
-	Author: Amaz Majeed
-	Roll Number: 048
-	Class Section: SE-2A
-	Institution: Superior University (BSSE)
-________________________________________
-Assignment Overview
-This repository includes individual C++ files addressing the following logical and mathematical problems:
-	Variable Assignment: A program using an if/else statement to assign 0 to x when y is equal to 10, and 1 otherwise.
-	Temperature Validation: An if statement that verifies if a temperature variable falls within the valid range of -50 through 150.
-	Number Comparison: A script that takes two numerical inputs from the user and identifies which is larger and which is smaller.
-	Floating-Point Modification: A program that assigns the value 10.0 to two variables, adds 0.2 to one, and accurately evaluates the larger value.
-	Safe Division: A program that divides two numbers while explicitly checking the denominator to ensure division by zero does not occur.
-	Race Standings: A script that accepts the names and completion times (in minutes) of three runners, ranking them in first, second, and third place.
-	Geometry Calculator: An interactive menu-driven program that calculates the area of a circle, rectangle, or triangle based on user choice.
-	ASCII Display: A loop-based program that displays the ASCII integer values for both uppercase and lowercase alphabets utilizing explicit type casting.
-	Mass & Weight Calculator: A script that converts mass to weight in Newtons (mass×9.8) and flags the object as “too heavy” if it exceeds 1000 Newtons or “too light” if it is below 10 Newtons.
+# Programming Fundamentals - Assignment 1 (Part 2)
+
+This repo folder contains the second set of C++ source code solutions for the Programming Fundamentals course. These programs focus on larger, menu-driven console applications simulating real-world management and billing systems.
+
+## Author Details
+* **Author:** Amaz Majeed
+* **Roll Number:** 048
+* **Class Section:** SE-2A
+* **Institution:** Superior University (BSSE)
+
+---
+
+## Assignment Overview
+
+This section of the repository includes the following C++ projects:
+
+*   **Student Diary System:** A diary application allowing users to register, login, and perform actions like creating, reading, editing, and deleting diary entries[cite: 10].
+*   **LESCO Electricity Billing:** An electricity billing system that calculates monthly bills based on specific unit slabs, handles new connection applications, and applies GST, income tax, and fixed charges depending on the user type[cite: 11].
+*   **Restaurant Management:** An order management program that lets customers view a food menu, place orders, and calculates a final bill that includes service charges, GST, and potential discounts[cite: 12].
+*   **Grocery Mart Billing:** A grocery store system featuring a shopping cart, sales tax calculation, membership and bill amount discounts, card processing charges, and a loyalty points program[cite: 13].
+*   **E-Commerce Checkout:** A shopping cart application that calculates product totals, GST, city-based delivery charges, customer discounts, and processing fees for different payment methods[cite: 14].
+*   **Social Media Campaign Calculator:** A cost calculator that evaluates platform management charges, post design costs, ad budgets, and calculates GST and business-type discounts to generate a final campaign bill[cite: 15].
+
+---
+
+## Compilation and Execution
+
+To compile and run any of these programs, use a standard C++ compiler like `g++` in your terminal.
+
+**1. Compile the code:**
+```bash
+g++ filename.cpp -o outputname
