@@ -17,3 +17,6 @@ This repository includes individual C++ files addressing the following logical a
 	Geometry Calculator: An interactive menu-driven program that calculates the area of a circle, rectangle, or triangle based on user choice.
 	ASCII Display: A loop-based program that displays the ASCII integer values for both uppercase and lowercase alphabets utilizing explicit type casting.
 	Mass & Weight Calculator: A script that converts mass to weight in Newtons (mass×9.8) and flags the object as “too heavy” if it exceeds 1000 Newtons or “too light” if it is below 10 Newtons.
+Compilation and Execution
+To run any of these programs, use a standard C++ compiler. For example, utilizing g++ in the terminal:
+g++ filename.cpp -o output./output
